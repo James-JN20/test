@@ -4,10 +4,6 @@ public class Account {
 	// Instance variable, only available inside this class.
 	private double balance; //New Comment for balance
 	private String name; 
-
-	public Account(double initBalance) {
-		this("Unknown", initBalance);
-	}
 	
 	public Account(String name, double balance) {
 		this.name = name;
